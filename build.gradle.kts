@@ -27,6 +27,9 @@ dependencies {
 
     // Meteor
     modImplementation("meteordevelopment:meteor-client:${properties["minecraft_version"] as String}-SNAPSHOT")
+
+    // JDA (Java Discord API)
+    implementation("net.dv8tion:JDA:${properties["jda_version"] as String}")
 }
 
 tasks {

@@ -1,27 +1,24 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "freegenschatlink",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for Meteor Client addons.",
+  "name": "FreeGens Chat Link",
+  "description": "A Meteor Client addon that links FreeGens to the Unofficial FreeGens Discord server.",
   "authors": [
-    "seasnail"
+    "zeeplockd"
   ],
   "contact": {
-    "sources": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "sources": "https://github.com/zeeplockd/FreeGensChatLink"
   },
-  "icon": "assets/template/icon.png",
+  "icon": "assets/freegenschatlink/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.AddonTemplate"
+      "me.zeeplockd.freegenschatlink.FreeGensChatLinkAddon"
     ]
   },
-  "mixins": [
-    "addon-template.mixins.json"
-  ],
   "custom": {
-    "meteor-client:color": "225,25,25"
+    "meteor-client:color": "25,225,25"
   },
   "depends": {
     "java": ">=21",
